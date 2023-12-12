@@ -1,30 +1,76 @@
-# React + TypeScript + Vite
+# Calendário Simples
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um calendário simples desenvolvido em React, TypeScript, JavaScript e Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
 
-## Expanding the ESLint configuration
+Para executar este projeto localmente, siga estas instruções:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Baixe o código-fonte:** Clone o repositório ou baixe o arquivo ZIP.
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Navegue até a pasta do projeto:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    cd nome-do-repositorio
+    ```
+
+3. **Instale as dependências:**
+
+    Com npm:
+
+    ```bash
+    npm install
+    ```
+
+    Com Yarn:
+
+    ```bash
+    yarn install
+    ```
+
+4. **Inicie o servidor de desenvolvimento:**
+
+    Com npm:
+
+    ```bash
+    npm start
+    ```
+
+    Com Yarn:
+
+    ```bash
+    yarn start
+    ```
+
+Isso iniciará o servidor de desenvolvimento e abrirá o projeto React no seu navegador padrão. Certifique-se de ter o Node.js instalado para poder utilizar o npm ou o Yarn.
+
+---
+
+## Contribuindo
+
+Fique à vontade para contribuir para este projeto! Siga as etapas abaixo:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch (`git checkout -b feature/nova-feature`).
+3. Faça commit das suas alterações (`git commit -am 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+Certifique-se de descrever detalhadamente suas alterações. Sua contribuição é muito bem-vinda!
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE.md) - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+
+---
+
+
+Obrigado por utilizar este calendário! Espero que seja útil para você. Contribuições são sempre bem-vindas. 😊
