@@ -1,6 +1,6 @@
-# Calendário Simples
+# Calendário
 
-Este projeto é um calendário simples desenvolvido em React, TypeScript, JavaScript e Vite.
+Este projeto é um calendário desenvolvido em React, TypeScript, JavaScript e Vite.
 
 ---
 
