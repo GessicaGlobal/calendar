@@ -11,7 +11,7 @@ Para executar este projeto localmente, siga estas instruções:
 1. **Baixe o código-fonte:** Clone o repositório ou baixe o arquivo ZIP.
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/GessicaGlobal/calendar.git
     ```
 
 2. **Navegue até a pasta do projeto:**
