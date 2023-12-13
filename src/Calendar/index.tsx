@@ -51,9 +51,10 @@ export const Calendar = () => {
 
     //preenchendo os dias do mes atual
     for (let i = 1; i <= ultimoDadoDoMes; i++) {
-        const classes = i === diaAtual ? 'current-day' : '';
+        const classes = anoAtual === dataAtual.getFullYear() && mesAtualNumero === dataAtual.getMonth() && i === diaAtual ? 'current-day' : '';
         diaDoMes.push(<li key={i} className={classes}>{i}</li>);
     }
+
     const diasRestantes = 6 * 7 - diaDoMes.length
 
     //preenchendo os primeiros dias do mes seguinte no mes atual
